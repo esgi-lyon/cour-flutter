@@ -1,6 +1,6 @@
+
+
 void main() {
-  /// TODO : Observer l'erreur remontée 
-  
   int myFinal = 20;
   int myConst = 40;
   
@@ -13,7 +13,6 @@ void main() {
 }
 
 void main2() {
-  /// TODO : Observer et corriger l'erreur remontée
   int a = 340;
 
   final int myConst = DateTime.now().millisecond;

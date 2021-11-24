@@ -31,11 +31,15 @@ void main3() {
     print(element == theSecretNumber ? 'YES THIS IS THE ONE ! $element' : 'IT\'S NOT $element GOOD LUCK NEXT TIME'); 
   }
 
+  // TODO 1 : Parcourir la liste et executer ckeckTheElement pour chaque element de la list
   List<int> lotoList = [1, 2, 3, 49, 7, 39, 2];
+  for (var el in lotoList) {
+    ckeckTheElement(el);
+  }
 
-  // TODO 1 : Parcourir la liste et executer ckeckTheElement pour chaque element de la list 
   // TODO 2 : Remplir la liste avec des nombres entiers aleatoire compris entre 0 et 10 (Créer une fonction generateRandomNumber)
-  // TODO 3 : supprimer la fonction ckeckTheElement et utiliser une fonction anonyme a la place 
+
+  // TODO 3 : supprimer la fonction ckeckTheElement et utiliser une fonction anonyme a la place
 
 }
 
